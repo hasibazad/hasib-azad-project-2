@@ -1,0 +1,143 @@
+html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: ''; clear: both; height: 0; }
+
+html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+*, *:before, *:after {box-sizing: inherit}
+
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+
+/* font families */
+
+    /* font-family: 'Raleway', ; */
+
+    /* font-family: 'Lora', ; */
+
+     html {
+    font-size: 62.5%;
+    }
+
+ .wrapper {
+    max-width: 1280px;
+    width: 90%;
+    margin: 0 auto;
+    }
+/* header styles */
+    header{
+        background-image: url(delicious-assets/home-1.jpeg);
+        height: 100vh;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    h1{
+        margin: 0;
+        padding: 0;
+        text-transform: uppercase;
+        font-family: Raleway;
+        font-size: 3rem;
+        padding: 1.5rem;
+    }
+
+    .header-div{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+    }
+
+    ul li{
+        font-family: Raleway;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 1.5rem;
+        padding: 1.5rem;
+
+    }
+/* ******* */
+
+/* section-1 styles */
+h2{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Raleway ;
+}
+.section-1 img{
+    width: 100%;
+}
+.section-1-div1 {
+    display: flex;
+}
+
+.section-1-text1 {
+    text-align: center;
+    margin: auto;
+    flex: 1 1 50%;
+    font-size: 1.5rem;
+}
+
+.section-1-text1 p{
+    color: #999999;
+    margin: 3rem 10rem;
+}
+.section-1-image1 {
+    flex: 1 1 50%;
+}
+
+.section-1-text1 button{
+    background: #64A604;
+    height: 3.5rem;
+    width: 13rem;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family:Raleway;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    
+}
+.section-1-div2{
+    display: flex;
+}
+
+.section-1-text2{
+    text-align: left;
+    flex: 1 1 50%;
+    
+}
+.section-1-image2 {
+    flex: 1 1 50%;
+}
+
+.section-1-text2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-1-text2 ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+
+.section-1-ul-1 span, .section-1-ul-2 span {
+    font-size: 2.2rem;
+    margin: 0 1rem;
+}
+
+.section-1-ul-1 li, .section-1-ul-2 li{
+    padding: 0rem;
+}
+
+
