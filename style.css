@@ -54,12 +54,13 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
         display: flex;
     }
 
-    ul li{
+    .header-nav ul li{
         font-family: Raleway;
         text-transform: uppercase;
         font-weight: bold;
         font-size: 1.5rem;
         padding: 1.5rem;
+
 
     }
 /* ******* */
@@ -70,6 +71,14 @@ h2{
     text-transform: uppercase;
     font-weight: bold;
     font-family: Raleway ;
+}
+
+h3{
+    font-family: Raleway;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0;
 }
 .section-1 img{
     width: 100%;
@@ -82,7 +91,8 @@ h2{
     text-align: center;
     margin: auto;
     flex: 1 1 50%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 40;
 }
 
 .section-1-text1 p{
@@ -110,17 +120,14 @@ h2{
 }
 
 .section-1-text2{
-    text-align: left;
+    display: flex;
     flex: 1 1 50%;
+    margin: auto;
+    padding: 6.5rem;
     
 }
 .section-1-image2 {
     flex: 1 1 50%;
-}
-
-.section-1-text2{
-    display: flex;
-    justify-content: space-evenly;
 }
 
 .section-1-text2 ul{
@@ -132,12 +139,34 @@ h2{
 
 
 .section-1-ul-1 span, .section-1-ul-2 span {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     margin: 0 1rem;
 }
 
 .section-1-ul-1 li, .section-1-ul-2 li{
-    padding: 0rem;
+    padding: 0;
+    display: flex;
+    margin: 1rem;
 }
+
+.section-1-ul-1, .section-1-ul-2 {
+    flex: 1 1 50%;
+}
+
+.section-1-ul-1 p, .section-1-ul-2 p{
+    font-size: 1.2rem;
+    color: #999999;
+    padding-right: 1rem;
+}
+
+.section-1-ul-1 li div, .section-1-ul-2 div{
+    margin-left: 1rem;
+}
+
+.section-1 i, .section-1 h3{
+    color: #333333;
+}
+
+
 
 
