@@ -60,8 +60,12 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
         font-weight: bold;
         font-size: 1.5rem;
         padding: 1.5rem;
+        
+    }
 
-
+    nav a {
+        text-decoration: none;
+        color: black;
     }
 /* ******* */
 
@@ -71,6 +75,7 @@ h2{
     text-transform: uppercase;
     font-weight: bold;
     font-family: Raleway ;
+    margin: 1rem 0;
 }
 
 h3{
@@ -171,6 +176,9 @@ h3{
 
 .section-2 > div{
     text-align: center;
+    padding-top: 20rem;
+    padding-bottom: 8rem;
+
 }
 
 .image-div{
@@ -179,6 +187,61 @@ h3{
 
 .image-div span{
     position: absolute;
+    bottom: 12.5rem;
+    right: 45rem;
 }
+    
+img.dining-pic {
+    width: 25%;
+}
+
+.green-bar {
+    background-color: #64A604;
+    height: 3px;
+    width: 5rem;
+    display: inline-block;
+}
+.section-2 .text-dev p {
+    font-size: 1.2rem;
+    color: #999999;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.image-div span img {
+    width: 15rem;
+}
+
+/* section-3 styles */
+
+.gallery-ul-1, .gallery-ul-2 {
+    display: flex;
+}
+
+.gallery-ul-1 li img, .gallery-ul-2 li img{
+    width: 100%;
+}
+
+/* section-4 styles */
+
+.section-4 {
+    background-color: #DDED9A;
+}
+
+.section-4 > div {
+    text-align: center;
+}
+
+.section-4 p {
+    font-size: 2rem;
+    color: #2E2E2E;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+
+
 
 
