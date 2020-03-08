@@ -1,0 +1,262 @@
+
+ html {
+    font-size: 62.5%;
+    }
+
+ .wrapper {
+    max-width: 1280px;
+    width: 90%;
+    margin: 0 auto;
+    }
+/* header styles */
+    .blog header{
+        background-image: url(delicious-assets/blog-1.jpeg);
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    h1{
+        margin: 0;
+        padding: 0;
+        text-transform: uppercase;
+        font-family: Raleway;
+        font-size: 3rem;
+        padding: 1.5rem;
+    }
+
+    .header-div{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    ul{
+        margin: 0;
+        padding-top: 1rem ;
+        padding-right:2rem;
+        list-style: none;
+        display: flex;
+    }
+
+
+    .header-nav ul li{
+        font-family: Raleway;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 1.5rem;
+        padding: 1.5rem;
+        transition: 1s all ease-in;
+    }
+    .header-nav ul li:hover{
+        transform: scale(2);
+        letter-spacing: 1rem;
+        transform: rotate(360deg);
+    }
+    
+    nav li.shopping-bag{
+        position: relative;
+    }
+
+    .shopping-bag span{
+        position: absolute;
+        background-color: #64A604;
+        text-align: center;
+        border-radius: 50%;
+        width: 2rem;
+        height: 2rem;
+        color: white;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        bottom: .2rem;
+        left: 2rem;
+    }
+    
+    nav.header-nav a {
+        text-decoration: none;
+        color: black;
+    }
+/* blog main design starts */
+
+
+.blog-section-1{
+    padding: 5rem 0;
+}
+.blog-section-1-main-text{
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    color: #999999;
+}
+
+.blog-section-1 span.admin{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 0 .5rem;
+}
+
+.blog-section-1 p{
+    font-family: Raleway;
+}
+
+.blog-section-1 div p{
+    font-weight: bold;
+}
+
+.blog-section-1 a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #999999;
+    margin: 0 1rem;
+    transition: .3s all ease-in;
+}
+
+.blog-section-1 a:hover{
+    transform:rotate (30deg);
+    color: salmon;
+}
+
+.blog-section-1-icon-div{
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* footer styles */
+
+footer{
+    background-color: #333333;
+    color: white;
+}
+
+h4{
+    text-transform: uppercase;
+    font-family: Raleway;
+    font-size: 3rem;
+    color:#64A604 ;
+    margin: 0;
+}
+
+footer div{
+    display: flex;
+    justify-content: center;
+    padding: 10rem 2rem;
+}
+
+footer div ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-content: space-around;
+    flex: 1 1 30%;
+    padding: 0 5rem;
+    
+}
+
+.footer-li-text {
+    color: #999999;
+    font-size: 1.2rem;
+    line-height:2rem;
+    padding: .5rem 0;
+}
+
+
+  li.footer-li-text{
+    border-bottom: .5px solid #999999;
+    padding: 1rem 0;
+ }
+
+ .footer-icon{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    border-top:.5px solid #999999;
+    padding: 1rem 0;
+
+ }
+
+ .footer-first-ul li:nth-child(5){
+     border-bottom:none;
+ }
+
+ .footer-second-ul li:nth-child(7){
+     border-bottom:none;
+ }
+
+ .footer-third-ul li:nth-child(2){
+    border-bottom:none;
+ }
+
+ footer input {
+     width: 15rem;
+     height: 3.2rem;
+     font-size: 1.2rem;
+     background-color: #999;
+     padding: 0 1rem;
+     font-style: italic;
+     color: white;
+     border: none;
+     overflow: visible;
+ }
+
+ footer button{
+    height: 3.2rem;
+    background-color: #64A604;
+    width: 4rem;
+    border: none;
+    margin: 0;
+    padding: 0;
+    transition: all .3s ease-in; ;
+ }
+
+ footer button i{
+     font-size: 1.3rem;
+     color: white;
+     width: 100%;
+     text-decoration: none;
+     
+ }
+
+ footer button a{
+     color: white;
+     
+ }
+
+ footer button:hover {
+    background: salmon;
+ }
+
+ .footer-icon{
+     text-decoration: none;
+ }
+
+ .footer-icon a {
+     color: white;
+ }
+
+
+
+ footer li.footer-icon a:hover{
+     color: salmon;
+ }
+/* ******* */
+
