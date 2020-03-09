@@ -1,0 +1,125 @@
+
+// media queries for index
+@media (max-width:1265px){
+    .section-1-text2 {
+        padding: 0;
+    }
+}
+
+@media (max-width:1200px){
+.blog-section-2-div-2 > div{
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+@media (max-width:1106px){
+.image-div span img {
+    display: none;
+}
+}
+
+
+@media (max-width:1100px){
+    .section-1-div1, .section-1-div2 {
+        flex-direction: column;
+    }
+    .section-1-text1 {
+        padding: 2rem 0;
+    }
+}
+
+@media (max-width:1040px){
+    .header-div{
+    flex-direction: column;
+    align-items: flex-start;
+    }
+    
+    header ul {
+        padding: 0;
+    }
+
+    footer div ul{
+        padding: 1rem;
+    }
+
+
+}
+
+@media (max-width:772px){
+    .footer-second-ul{
+        display: none;
+    }
+
+    footer div.wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-2 > div {
+        padding-top: 10rem;
+    }
+
+    .section-1-text2 ul {
+        padding: 1rem;
+    }
+
+    .contact-details{
+        flex-direction: column;
+    }
+
+    .blog-section-2-text {
+        flex: 1 1 50%;
+        height: 100%;
+    }
+    div.blog-section-2-div-1 img {
+        flex: 1 1 50%;
+        height: 100%;
+    }
+    
+}
+
+@media (max-width:704px){
+    .header-nav ul li{
+        font-size: 1.5rem;
+        padding: 1.3rem;
+    }
+    header ul {
+    display: flex;
+    height: 50rem;
+    flex-direction: column;
+    background-color: gray;
+    border: 2px solid transparent;
+    border-radius: 2rem 0rem;
+    margin: 0 1rem;
+    }
+
+    .shopping-bag span {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .blog-section-2 > div.blog-section-2-div-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+}
+
+@media (max-width:440px){
+    .blog-section-2-div-2 img{
+        width: 90%;
+    }
+}
+
+
+@media (max-width:390px) {
+    .section-1-text2{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+.blog-section-2-div-2 img
