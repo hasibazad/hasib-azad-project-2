@@ -1,0 +1,141 @@
+ html {
+    font-size: 62.5%;
+    }
+
+ .wrapper {
+    max-width: 1280px;
+    width: 90%;
+    margin: 0 auto;
+    }
+/* header styles */
+    .contact header{
+        background-image: url(delicious-assets/contact-1.jpeg);
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    h1{
+        margin: 0;
+        padding: 0;
+        text-transform: uppercase;
+        font-family: Raleway;
+        font-size: 3rem;
+        padding: 1.5rem;
+    }
+
+    .header-div{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    ul{
+        margin: 0;
+        padding-top: 1rem ;
+        padding-right:2rem;
+        list-style: none;
+        display: flex;
+    }
+
+
+    .header-nav ul li{
+        font-family: Raleway;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 1.5rem;
+        padding: 1.5rem;
+        transition: 1s all ease-in;
+    }
+    .header-nav ul li:hover{
+        transform: scale(1.5);
+        letter-spacing: .2rem;
+    }
+    
+    nav li.shopping-bag{
+        position: relative;
+    }
+
+    .shopping-bag span{
+        position: absolute;
+        background-color: #64A604;
+        text-align: center;
+        border-radius: 50%;
+        width: 2rem;
+        height: 2rem;
+        color: white;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        bottom: .2rem;
+        left: 2rem;
+    }
+    
+    nav.header-nav a {
+        text-decoration: none;
+        color: black;
+    }
+
+    // main styles////@extend
+
+    .contact-details {
+        display: flex;
+    }
+
+    .contact-details div.contact-form, .contact-details div.contact-text {
+        flex: 1 1 40%;
+        padding:10rem 2rem ;
+    }
+
+    div.contact-text{
+        background-color: #F6F6F6;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .contact-text div p{
+        width: 50%;
+        color: #999999;
+    }
+
+    .contact-text div p span {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #333333;
+    }
+
+    .contact-text div p span.day{
+        color: #999999;
+        text-transform: capitalize;
+        font-weight: normal;
+    }
+
+    form{
+        margin: 4rem 0;
+    }
+
+    .contact-form-div-1 .fifty {
+        width: 45%;
+        border: none;
+        background:#F6F6F6;
+        text-transform: capitalize;
+    }
+
+    .contact-form-div-2 .hundred {
+        width: 92.5%;
+        border: none;
+        background:#F6F6F6;
+        margin-top: 2rem;
+        text-transform: capitalize;
+    }
+
+    .contact-form-div-3 textarea {
+        width: 92.5%;
+        border: none;
+        background:#F6F6F6;
+        text-transform: capitalize;
+    } 
+
+    

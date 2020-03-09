@@ -1,4 +1,4 @@
-/* index designs */
+
      html {
     font-size: 62.5%;
     }
@@ -33,7 +33,7 @@
         justify-content: space-between;
     }
 
-    ul{
+    header ul{
         margin: 0;
         padding-top: 1rem ;
         padding-right:2rem;
@@ -51,9 +51,8 @@
         transition: 1s all ease-in;
     }
     .header-nav ul li:hover{
-        transform: scale(2);
+        transform: scale(1.5);
         letter-spacing: 1rem;
-        transform: rotate(360deg);
     }
     
     nav li.shopping-bag{
@@ -261,6 +260,7 @@ img.dining-pic {
 
 .gallery-ul-1, .gallery-ul-2 {
     display: flex;
+    margin: 0;
 }
 
 .gallery-ul-1 li img, .gallery-ul-2 li img{
